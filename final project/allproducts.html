@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <title>All</title>
+        <style>
+           .header{
+            font-size: 25px;font-family:Arial, Helvetica, sans-serif;font-weight: bold;text-align:left;
+           }
+           body{
+            background-color: aqua;
+        }
+           .card{
+            background-color: aquamarine;
+           }
+           .header1{
+            font-size: 35px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight: bolder;text-align: center;
+           }
+           .header2{
+            font-size: 50px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-weight: bolder;text-align: center;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="header2">All Products</div>
+        <div class="header1">Women</div>
+        <div class="header">Pants</div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="pant1.avif" alt="image of women stylish pants" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women  Stylish Pants</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('pant1', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="pant4.avif" alt="image of women stylish pants" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women  Stylish Pants</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('pant4', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="pant1.avif" alt="image of women stylish pants" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women  Stylish Pants</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('pant1', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="pant4.avif" alt="image of women stylish pants" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women  Stylish Pants</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('pant4', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="pant5.avif" alt="image of women stylish pants" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Pants</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('pant5', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </br>
+        <div class="header">Frocks</div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="frock1.jpg" alt="image of women stylish frocks" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Frocks</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('frock1', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="frock2.jpg" alt="image of women stylish frocks" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Frocks</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('frock2', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="frock3.jpg" alt="image of women stylish frocks" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Frocks</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('frock3', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="frock4.jpg" alt="image of women stylish frocks" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Frocks</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('frock4', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="frocl5.jpg" alt="image of women stylish frocks" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Frocks</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('frocl5', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+</br>
+        <div class="header">Shirts</div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="shirt1.avif" alt="image of women stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('shirt1', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="shirt2.avif" alt="image of women stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('shirt2', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="shirt3.avif" alt="image of women stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('shirt3', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="shirt4.webp" alt="image of women stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('shirt4', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="shirt5.webp" alt="image of women stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Women Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('shirt5', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        </br>
+        </br>
+
+        
+        <div class="header1">Mens</div>
+        <div class="header">Shirts</div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="mshirt1.jpg" alt="image of men stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('mshirt1', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="mshirt2.jpg" alt="image of men stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('mshirt2', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="mshirt3.jpg" alt="image of men stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('mshirt3', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="mshirt4.jpg" alt="image of men stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('mshirt4', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="mshirt5.jpg" alt="image of men stylish shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('mshirt5', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        </br>
+        <div class="header">T-shirts</div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="tshirt1.jpg" alt="image of men stylish t-shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish T-shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('tshirt1', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="tshirt2.jpg" alt="image of men stylish t-shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish T-shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('tshirt2', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="tshirt3.jpg" alt="image of men stylish t-shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish T-shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('tshirt3', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="tshirt4.jpg" alt="image of men stylish t-shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish T-shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('tshirt4', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="tshirt5.jpg" alt="image of men stylish t-shirts" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish T-shirts</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('tshirt5', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        </br>
+        <div class="header">Jeans</div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="jeans1.jpg" alt="image of men stylish jeans" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Jeans</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('jeans1', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="jeans2.jpg" alt="image of men stylish jeans" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Jeans</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('jeans2', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="jeans3.jpg" alt="image of men stylish jeans" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Jeans</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('jeans3', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="jeans4.jpg" alt="image of men stylish jeans" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Jeans</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('jeans4', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="jeans5.jpg" alt="image of men stylish jeans" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Men Stylish Jeans</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('jeans5', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        </br>
+        </br>
+        
+        <div class="header1">Kids</div>
+        <div class="header">Girls</div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="kg1.jpg" alt="image of girl stylish dress" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Girls Stylish Dress</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('kg1', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="kg2.jpg" alt="image of girl stylish dress" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Girls Stylish Dress</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('kg2', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="kg3.jpg" alt="image of girl stylish dress" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Girls Stylish Dress</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('kg3', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="kg4.jpg" alt="image of girl stylish dress" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Girls Stylish Dress</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('kg4', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                <img class="card-img-top" src="kg5.jpg" alt="image of girl stylish dress" style="height:200px">
+                <div class="card-body">
+                    <h4 class="card-title">Girls Stylish Dress</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-price">₹150</p>
+                    <button class="btn btn-primary" onclick="addToCart('kg5', 150)">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </br>
+    </br>
+
+    <div class="header">Boys</div>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width:200px">
+            <img class="card-img-top" src="kb1.jpg" alt="image of boy stylish dress" style="height:200px">
+            <div class="card-body">
+                <h4 class="card-title">Boys Stylish Dress</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="card-price">₹150</p>
+                <button class="btn btn-primary" onclick="addToCart('kb1', 150)">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width:200px">
+            <img class="card-img-top" src="kb2.jpg" alt="image of boy stylish dress" style="height:200px">
+            <div class="card-body">
+                <h4 class="card-title">Boys Stylish Dress</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="card-price">₹150</p>
+                <button class="btn btn-primary" onclick="addToCart('kb2', 150)">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width:200px">
+            <img class="card-img-top" src="kb3.jpg" alt="image of boy stylish dress" style="height:200px">
+            <div class="card-body">
+                <h4 class="card-title">Boys Stylish Dress</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="card-price">₹150</p>
+                <button class="btn btn-primary" onclick="addToCart('kb3', 150)">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width:200px">
+            <img class="card-img-top" src="kb4.jpg" alt="image of boy stylish dress" style="height:200px">
+            <div class="card-body">
+                <h4 class="card-title">Boys Stylish Dress</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="card-price">₹150</p>
+                <button class="btn btn-primary" onclick="addToCart('kb4', 150)">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width:200px">
+            <img class="card-img-top" src="kb5.jpg" alt="image of boy stylish dress" style="height:200px">
+            <div class="card-body">
+                <h4 class="card-title">Boys Stylish Dress</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="card-price">₹150</p>
+                <button class="btn btn-primary" onclick="addToCart('kb5', 150)">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
